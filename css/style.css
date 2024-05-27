@@ -5,10 +5,14 @@
 }
 
 
+body{
+    font-family: Arial, sans-serif;
+}
+
 /* CSS HEADER */
 
 header{
-    background-color: rgb(193, 244, 253);
+    background-color: rgb(37 94 231);
 }
 
 
@@ -27,21 +31,20 @@ header{
 
 .col-sm{
     width: 20%;  
-    border: 2px dashed black;
-    background-color: rgb(211, 162, 0);
+ 
 
 }
 
 .col-lg{
     width: 60%;
     text-align: center;
-    border: 2px dashed black;
-    background-color: rgb(211, 162, 0);
+
 
 }
 
 .dx-text{
     text-align: right;
+    color: #fff;
 }
 
 .col-lg > ul{
@@ -51,7 +54,19 @@ header{
 ul li{
     display: inline-block;
     margin-left: 25px;
-    
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.botton{
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 
@@ -61,7 +76,9 @@ ul li{
 .container-bg-blue{
     max-width: 100%;
     padding: 40px;
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+   
 }
 
 
