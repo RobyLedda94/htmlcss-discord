@@ -51,7 +51,7 @@ header{
     list-style-type: none;
 }
 
-ul li{
+.col-lg ul li{
     display: inline-block;
     margin-left: 25px;
 }
@@ -163,9 +163,7 @@ li a{
 
 
 
-.container-bg-lightgray{
-    background-color: lightgray;
-}
+
 
 
 .col-80{
@@ -199,35 +197,62 @@ li a{
 }
 
 
+/* CSS PART FOOTER */
 
 
-.container-bg-black{
-    background-color: rgb(65, 65, 65);
-    border-bottom: 1px solid #fff;
+footer{
+    background-color:  rgb(65, 65, 65);
+}
+
+.container-footer-top{
+    border-bottom: 1px solid  rgb(61, 83, 182);
 }
 
 .col-30{
     width: 30%;
     height: 450px;
-    background-color: rgb(235, 155, 235);
-    border: 2px dashed black;
+}
 
+.col-30 > h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: rgb(61, 83, 182);
+}
+
+.col-30 img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.col-30 span{
+    color: #fff;
+    font-size: 15px;
 }
 
 .col-20{
     width: 20%;
+    padding: 10px;
     height: 450px;
-    background-color: aqua;
-    border: 2px dashed black;
+}
+
+
+.col-20 h4{
+    color:rgb(61, 83, 182) ;
+}
+
+.col-20 > ul{
+    list-style-type: none;
+}
+
+.col-20  ul li{
+    margin-bottom: 25px;
 }
 
 
 
-/* CSS PART FOOTER */
 
-footer{
-    background-color:  rgb(65, 65, 65);
-}
+
+
 
 
 .rowtwo{
@@ -241,8 +266,6 @@ footer{
     justify-content: end;
     align-items: center;
     width: 50%;
-    height: 50px;
-    background-color: rgb(123, 246, 255);
     
 }
 
@@ -251,14 +274,23 @@ footer{
     align-items: center;
     width: 50%;
     height: 50px;
-    background-color: rgb(123, 246, 255);
+    
     
 }
 
-.logo, .bottone{
-    background-color: pink;
-    border: 2px dashed black;
+.bottone{
+    background-color: rgb(14, 146, 255);
+    padding: 10px;
+    border-radius: 15px;
+    
+
 }
+
+.bottone > a{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 
 
